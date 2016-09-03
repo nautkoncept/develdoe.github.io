@@ -6,7 +6,7 @@ meta_description: "Your New Jekyll Site, Blogging about stuffs"
 aboutPage: false
 
 markdown: kramdown
-highlighter: redcarpet
+highlighter: rouge
 
 
 gems: [jekyll-paginate]
