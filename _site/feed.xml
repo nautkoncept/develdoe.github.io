@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Your New Jekyll Site</title>
+    <description>Hello, I am the Devel. A front end engineer who loves all things HTML, CSS and Javascript. This is my journal.</description>
+    <link>http://your-blog-url.example.com</link>
+    <atom:link href="http://your-blog-url.example.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Github page and Jekyll</title>
+        
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Create a new account at github&lt;/li&gt;
+  &lt;li&gt;Create a new repository named &lt;em&gt;username&lt;/em&gt;.github.io&lt;/li&gt;
+  &lt;li&gt;Click the “Set up in Desktop” button&lt;/li&gt;
+  &lt;li&gt;Open Github Desktop&lt;/li&gt;
+  &lt;li&gt;Go to preferences and log in to your new account&lt;/li&gt;
+  &lt;li&gt;Click the plus sign to access the repository that we created earlier&lt;/li&gt;
+  &lt;li&gt;Clone it to where you want your local version to reside&lt;/li&gt;
+  &lt;li&gt;Add all file from &lt;a href=&quot;https://github.com/nickbalestra/kactus&quot;&gt;kaktus&lt;/a&gt; theme&lt;/li&gt;
+  &lt;li&gt;Add a commit message -&amp;gt; click “Commit to master” -&amp;gt; “Publish”&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 02 Sep 2016 10:18:00 +0200</pubDate>
+        <link>http://your-blog-url.example.com/2016/Step-by-step-First-Jekyll-site/</link>
+        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Step-by-step-First-Jekyll-site/</guid>
+      </item>
+    
+      <item>
+        <title>Font Awesome</title>
+        
+        
+          <description>&lt;p&gt;Font Awesome provides a standard set of web and brand icons free for personal and commercial use.
+These icons make it easy to illustrate something quickly with almost no effort.
+You can find the project at &lt;a href=&quot;https://github.com/FortAwesome/Font-Awesome&quot;&gt;Font Awesume&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 01 Sep 2016 10:18:00 +0200</pubDate>
+        <link>http://your-blog-url.example.com/2016/Font-Awesome/</link>
+        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Font-Awesome/</guid>
+      </item>
+    
+      <item>
+        <title>Planning a new project</title>
+        
+        
+          <description>&lt;p&gt;Planning is crucial in the early stages of starting a new project. Even though a good plan can’t account for
+the unexpected, it can provide us with broad milestones. We have to turn those milestones into concrete
+objectives that can followed throughout the project.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 31 Aug 2016 12:18:00 +0200</pubDate>
+        <link>http://your-blog-url.example.com/2016/Planning-a-new-project/</link>
+        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Planning-a-new-project/</guid>
+      </item>
+    
+      <item>
+        <title>JavaScript Case Sensitivity</title>
+        
+        
+          <description>&lt;p&gt;JavaScript is a case-sensitive language, this means that language keywords, variables, function names, and other identifiers must be typed with a constant capitalization.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 04 Mar 2016 11:18:00 +0100</pubDate>
+        <link>http://your-blog-url.example.com/2016/JavaScript-Case-Sensivity/</link>
+        <guid isPermaLink="true">http://your-blog-url.example.com/2016/JavaScript-Case-Sensivity/</guid>
+      </item>
+    
+      <item>
+        <title>JavaScript Charset</title>
+        
+        
+          <description>&lt;p&gt;JS programs are written using the Unicode charset.
+Unicode is a superset of ASCII and Latin1.
+ECMAScript3 requires version 2.1 or later.
+ECMAScript5 requires version 3 or later.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 03 Mar 2016 11:18:00 +0100</pubDate>
+        <link>http://your-blog-url.example.com/2016/JavaScript-Charset/</link>
+        <guid isPermaLink="true">http://your-blog-url.example.com/2016/JavaScript-Charset/</guid>
+      </item>
+    
+      <item>
+        <title>Client Side JavaScript</title>
+        
+        
+          <description>&lt;p&gt;This article shows you how to embed JS in an HTML document and goes through some other client-side JS examples.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 02 Mar 2016 11:18:00 +0100</pubDate>
+        <link>http://your-blog-url.example.com/2016/JavaScript-Client-Side/</link>
+        <guid isPermaLink="true">http://your-blog-url.example.com/2016/JavaScript-Client-Side/</guid>
+      </item>
+    
+      <item>
+        <title>Core JavaScript</title>
+        
+        
+          <description>&lt;p&gt;This article goes through the JavaScript language and shows you things like comments, semicolon, the unicode character set, types, values, and variables.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 01 Mar 2016 11:18:00 +0100</pubDate>
+        <link>http://your-blog-url.example.com/2016/JavaScript-Core/</link>
+        <guid isPermaLink="true">http://your-blog-url.example.com/2016/JavaScript-Core/</guid>
+      </item>
+    
+  </channel>
+</rss>

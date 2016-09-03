@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Your New Jekyll Site - Client Side JavaScript</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="My Blog" href="/rss.xml">
+  <link rel="stylesheet" href="/assets/css/highlight.css">
+  <!--TODO:add fontawesome-->
+</head>
+<body>
+
+  <nav class="main-nav">
+    
+        <a href="/"> <span class="arrow">←</span> Home </a>
+    
+
+    
+        
+    
+    <a class="cta" href="/feed.xml">Subscribe</a>
+</nav>
+
+
+  
+
+  <section id="wrapper" class="">
+    <article class="post">
+    <header>
+        <h1>Client Side JavaScript</h1>
+        <h2 class="headline">March 2, 2016</h2>
+    </header>
+    <section id="post-body">
+        <p>This article shows you how to embed JS in an HTML document and goes through some other client-side JS examples.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">&lt;html&gt;
+&lt;head&gt;
+&lt;script src=&quot;library.js&quot;&gt; &lt;!-- Include a library of JS code --&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;This is a paragraph of HTML markup&lt;/p&gt;
+&lt;script&gt;
+// and this is some client-side JS code
+// litteraly embedded within the HTML document
+&lt;/script&gt;
+&lt;p&gt;More HTML markup&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!-- The window object, is a techique for scripting the web browser --&gt;
+&lt;script&gt;
+function monveon() {
+	// Display a modal dialog box to ask the user a question
+	var answer = confirm(&quot;Ready to move on?&quot;);
+	// If answer &quot;OK&quot;, make browser load new page
+	if(aswer) window.location = &quot;http://google.com&quot;;
+};
+// Run the functino defined 1 minute (60,000 millliseconds) from now.
+setTimeout(moveon,60000);
+&lt;/script&gt;
+
+&lt;!-- This function demonstrate a number of basic document searching and mod techniques --&gt;
+&lt;script&gt;
+// Display a message in a special debugging output section of the document.
+// if the document does not contain such a section. create one.
+function debug(msg) {
+	// Find the debugging section of the document, looking at HTML id attribute
+	var log = document.getElementById(&quot;debuglog&quot;);
+
+	// If no element with the id exist, create one.
+	if (!log) {
+		log = document.createElement(&quot;div&quot;);	// Crete a new &lt;div&gt; element
+		log.id = &quot;debuglog&quot;;			// Set the HTML attribute on it
+		log.innerHTML = &quot;&lt;h1&gt;Debug Log&lt;/h1&gt;&quot;;	// Define initial content
+		document.boby.appendChild(log);		// Add it at the end
+	}
+
+	// Wrap the message in its own &lt;pre&gt; and append it to the log.
+	var pre = document.createElement(&quot;pre&quot;);	// Create a &lt;pre&gt; tag
+	var text = document.createTextNode(msg);	// Wrap msg in a text node
+	pre.appendChild(text);				// Add text to the &lt;pre&gt;
+	log.appendChild(pre);				// Add &lt;pre&gt; to the log
+}
+&lt;/script&gt;
+&lt;!-- How to use JS woth CSS style that define the presentation --&gt;
+&lt;script&gt;
+function hide(e, reflow) {				// Hide the element e
+	if(reflow) {					// If 2nd argument is true
+		e.style.display = &quot;none&quot;;		// hide element and use its space
+	}
+	else {						// Otherwise
+		e.style.display = &quot;hidden&quot;;		// make invisible, but leave its space
+	}
+}
+
+function highlight(e) {					// Highlight e by setting a CSS class
+	// Simply define or append to the HTML class attribute.
+	// This assumes that a CSS stylesheet already defines the &quot;hilite&quot; class.
+	if (!e.className) e.className = &quot;hilite&quot;;
+	else e.className += &quot; hilite&quot;;
+}
+&lt;/scritpt&gt;
+
+&lt;!-- To define behavior with JS, we register events --&gt;
+&lt;script src=&quot;debug.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;hide.js&quot;&gt;&lt;/script&gt;
+&lt;button onclick=&quot;hide(this,true); debug(&#39;hide button 1&#39;);&quot;&gt;Hide1&lt;/button&gt;
+&lt;button onclick=&quot;hide(this); debug(&#39;hide butto 2&#39;);&quot;&gt;Hide 2&lt;/button&gt;
+}
+
+&lt;!-- Some more client-side JS that uses events --&gt;
+&lt;script&gt;
+// The load event occurs when a document is fully loaded. Usually we need to wait for this event
+// before we start runnung our JS code
+window.onload = Function() {				// Run this function after the document loads
+	// Find all &lt;img&gt; tags in the document
+	var images = document.getElementsByTagName(&quot;img&quot;);
+
+	// Loop through them, adding an event handler for click events to each so that clicking on
+	// images hides it
+	for(var i=0; i &lt; image.length; i++) {
+		var image = images[i];
+		if(image.addEventListener)		// another way of register a handler
+			image.addEventListener(&quot;click&quot;,hide,false);
+		else					// For compatability with IE 8 and before
+			image.attachEvent(&quot;onclick&quot;,hide);
+	}
+
+	// This is the event handler function registered above
+	function hide(event) {
+		// srcElement needed for IE8, target for Chrome and Firefox
+		var target = event.target ? event.target : event.srcElement;
+		target.style.visibility = &quot;hidden&quot;;
+	}
+};
+
+&lt;!-- Example the use of JQuary library --&gt;
+&lt;script&gt;
+function debug(msg) {
+	var log = $(&quot;#debug&quot;);				// Find the element to display msg in
+	if(log.length == 0) {				// If it doesn&#39;t exist yetm create it...
+		log == $(&quot;&lt;div id=&#39;debuglog&#39;&gt;&lt;h1&gt;Debug Log&lt;/h1&gt;&lt;/div&gt;&quot;);
+		log.appendTo(document.body);		// and insert it at the end of the body
+	}
+	log.append($(&quot;&lt;pre/&gt;&quot;).text(msg));		// Wrap msg in &lt;pre&gt; and append to log.
+}
+&lt;/script&gt;
+}</code></pre></figure>
+
+
+    </section>
+</article>
+
+
+<footer id="post-meta" class="clearfix">
+    <a href="http://twitter.com/YourTwitterUsername">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">John "Devel" Doe</span>
+            <span>This is my journal</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=http://yourblog-domain.com/2016/JavaScript-Client-Side/ - Client Side JavaScript by @YourTwitterUsername"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+    </section>
+</footer>
+
+
+<!-- Disqus comments -->
+
+
+
+<!-- Archive post list -->
+
+
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/highlight.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXXXXX-X', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
