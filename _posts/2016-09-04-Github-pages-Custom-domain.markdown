@@ -6,5 +6,5 @@ date: 2016-09-03 08:18:00
 
 * Register a domain name  
 * Go to you DNS settings
-* Create two A records and two CNAME records that points to
+* Create two A records and two CNAME (www) records that points to
 192.30.252.153 & 192.30.252.154

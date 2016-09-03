@@ -13,7 +13,7 @@
           <description>&lt;ul&gt;
   &lt;li&gt;Register a domain name&lt;/li&gt;
   &lt;li&gt;Go to you DNS settings&lt;/li&gt;
-  &lt;li&gt;Create two A records and two CNAME records that points to
+  &lt;li&gt;Create two A records and two CNAME (www) records that points to
 192.30.252.153 &amp;amp; 192.30.252.154&lt;/li&gt;
 &lt;/ul&gt;
 </description>
