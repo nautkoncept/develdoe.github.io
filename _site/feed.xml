@@ -7,23 +7,6 @@
     <atom:link href="http://your-blog-url.example.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Jekyll commenting with Disqus</title>
-        
-        
-          <description>&lt;ul&gt;
-  &lt;li&gt;Register a domain name&lt;/li&gt;
-  &lt;li&gt;Go to you DNS settings&lt;/li&gt;
-  &lt;li&gt;Create two A records and two CNAME (www) records that points to
-192.30.252.153 &amp;amp; 192.30.252.154&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        
-        <pubDate>Mon, 05 Sep 2016 10:18:00 +0200</pubDate>
-        <link>http://your-blog-url.example.com/2016/Jekyll-commenting-with-Disqus/</link>
-        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Jekyll-commenting-with-Disqus/</guid>
-      </item>
-    
-      <item>
         <title>Github Pages - Custom Domain</title>
         
         
