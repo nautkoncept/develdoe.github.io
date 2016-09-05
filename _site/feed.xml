@@ -7,6 +7,23 @@
     <atom:link href="http://your-blog-url.example.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Jekyll commenting with Disqus</title>
+        
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Register a domain name&lt;/li&gt;
+  &lt;li&gt;Go to you DNS settings&lt;/li&gt;
+  &lt;li&gt;Create two A records and two CNAME (www) records that points to
+192.30.252.153 &amp;amp; 192.30.252.154&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        
+        <pubDate>Mon, 05 Sep 2016 10:18:00 +0200</pubDate>
+        <link>http://your-blog-url.example.com/2016/Jekyll-commenting-with-Disqus/</link>
+        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Jekyll-commenting-with-Disqus/</guid>
+      </item>
+    
+      <item>
         <title>Github Pages - Custom Domain</title>
         
         
@@ -18,9 +35,43 @@
 &lt;/ul&gt;
 </description>
         
-        <pubDate>Sat, 03 Sep 2016 10:18:00 +0200</pubDate>
+        <pubDate>Sun, 04 Sep 2016 10:18:00 +0200</pubDate>
         <link>http://your-blog-url.example.com/2016/Github-pages-Custom-domain/</link>
         <guid isPermaLink="true">http://your-blog-url.example.com/2016/Github-pages-Custom-domain/</guid>
+      </item>
+    
+      <item>
+        <title>Font Awesome</title>
+        
+        
+          <description>&lt;p&gt;Font Awesome provides a standard set of web and brand icons free for personal and commercial use.
+These icons make it easy to illustrate something quickly with almost no effort.
+You can find the project at &lt;a href=&quot;https://github.com/FortAwesome/Font-Awesome&quot;&gt;Font Awesume&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 03 Sep 2016 10:18:00 +0200</pubDate>
+        <link>http://your-blog-url.example.com/2016/Font-Awesome/</link>
+        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Font-Awesome/</guid>
+      </item>
+    
+      <item>
+        <title>Content Editor for GitHub</title>
+        
+        
+          <description>&lt;ul&gt;
+  &lt;li&gt;Log on to github&lt;/li&gt;
+  &lt;li&gt;Go to Prose.io&lt;/li&gt;
+  &lt;li&gt;Navigate to where you save your posts&lt;/li&gt;
+  &lt;li&gt;Click “New file”&lt;/li&gt;
+  &lt;li&gt;YAML Title, Description and so on belongs in the metadata selection&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sat, 03 Sep 2016 10:18:00 +0200</pubDate>
+        <link>http://your-blog-url.example.com/2016/Content-Editor-for-GitHub/</link>
+        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Content-Editor-for-GitHub/</guid>
       </item>
     
       <item>
@@ -44,21 +95,6 @@
         <pubDate>Fri, 02 Sep 2016 10:18:00 +0200</pubDate>
         <link>http://your-blog-url.example.com/2016/Step-by-step-First-Jekyll-site/</link>
         <guid isPermaLink="true">http://your-blog-url.example.com/2016/Step-by-step-First-Jekyll-site/</guid>
-      </item>
-    
-      <item>
-        <title>Font Awesome</title>
-        
-        
-          <description>&lt;p&gt;Font Awesome provides a standard set of web and brand icons free for personal and commercial use.
-These icons make it easy to illustrate something quickly with almost no effort.
-You can find the project at &lt;a href=&quot;https://github.com/FortAwesome/Font-Awesome&quot;&gt;Font Awesume&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 01 Sep 2016 10:18:00 +0200</pubDate>
-        <link>http://your-blog-url.example.com/2016/Font-Awesome/</link>
-        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Font-Awesome/</guid>
       </item>
     
       <item>

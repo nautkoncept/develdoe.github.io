@@ -1,7 +1,7 @@
 ---
 title:  "Font Awesome"
 description: Font Awesome provides a standard set of web and brand icons
-date: 2016-09-01 08:18:00
+date: 2016-09-03 08:18:00
 ---
 Font Awesome provides a standard set of web and brand icons free for personal and commercial use.
 These icons make it easy to illustrate something quickly with almost no effort.
