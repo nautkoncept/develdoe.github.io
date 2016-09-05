@@ -17,8 +17,8 @@ paginate_path: "page:num"
 baseurl: /
 domain_name: 'http://yourblog-domain.com'
 google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+disqus: true
+disqus_shortname: 'develdoe.com'
 
 # Details for the RSS feed generator
 url:            'http://your-blog-url.example.com'
