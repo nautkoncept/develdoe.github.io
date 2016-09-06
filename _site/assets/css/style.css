@@ -132,11 +132,13 @@ nav.main-nav a {
 
 }
 nav.main-nav a.cta {
-	background: #5badf0;
+	background: #0e0e0e;
 	color: #fff;
 	margin-left: 12px;
 }
-
+nav.main-nav a.cta:hover{
+	background: #5badf0
+}
 #wrapper {
   max-width: 600px;
   margin: 0 auto;
