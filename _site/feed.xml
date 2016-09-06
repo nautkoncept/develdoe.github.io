@@ -14,8 +14,11 @@
   &lt;li&gt;Create an account&lt;/li&gt;
   &lt;li&gt;Click “Create A List” and fill out form&lt;/li&gt;
   &lt;li&gt;Click “Signup Forms” and select “General Form”&lt;/li&gt;
-  &lt;li&gt;Add the address Mailchimp provides you to your site&lt;/li&gt;
+  &lt;li&gt;Add the url Mailchimp provides you to your site&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/urlFromMailchimp&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 </description>
         
         <pubDate>Tue, 06 Sep 2016 02:00:00 +0200</pubDate>
