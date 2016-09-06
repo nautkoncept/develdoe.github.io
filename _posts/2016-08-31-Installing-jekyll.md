@@ -10,3 +10,5 @@ date: 2016-08-31T00:00:00.000Z
 xcode-select --install
 sudo gem install jekyll
 {%endhighlight%}
+
+*After install, simply run "jekyll serve" in the folder containing jekyll files*
