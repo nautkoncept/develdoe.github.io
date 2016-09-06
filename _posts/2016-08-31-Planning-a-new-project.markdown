@@ -4,7 +4,7 @@ description: >-
   Planning is crucial in the early stages of starting a new project. Even though
   a good plan can't account for the unexpected, it can provide us with broad
   milestones.
-date: 2016-09-01T10:18:00.000Z
+date: 2016-08-31T10:18:00.000Z
 published: true
 ---
 
