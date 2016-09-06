@@ -101,6 +101,20 @@ You can find the project at &lt;a href=&quot;https://github.com/FortAwesome/Font
       </item>
     
       <item>
+        <title>Installing Jekyll</title>
+        
+        
+          <description>
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;xcode-select --install
+sudo gem install jekyll&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+</description>
+        
+        <pubDate>Thu, 01 Sep 2016 02:00:00 +0200</pubDate>
+        <link>http://your-blog-url.example.com/2016/Installing-jekyll/</link>
+        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Installing-jekyll/</guid>
+      </item>
+    
+      <item>
         <title>Planning a new project</title>
         
         
@@ -110,7 +124,7 @@ objectives that can followed throughout the project.&lt;/p&gt;
 
 </description>
         
-        <pubDate>Thu, 01 Sep 2016 12:18:00 +0200</pubDate>
+        <pubDate>Wed, 31 Aug 2016 12:18:00 +0200</pubDate>
         <link>http://your-blog-url.example.com/2016/Planning-a-new-project/</link>
         <guid isPermaLink="true">http://your-blog-url.example.com/2016/Planning-a-new-project/</guid>
       </item>
@@ -154,19 +168,6 @@ ECMAScript5 requires version 3 or later.&lt;/p&gt;
         <pubDate>Wed, 02 Mar 2016 11:18:00 +0100</pubDate>
         <link>http://your-blog-url.example.com/2016/JavaScript-Client-Side/</link>
         <guid isPermaLink="true">http://your-blog-url.example.com/2016/JavaScript-Client-Side/</guid>
-      </item>
-    
-      <item>
-        <title>Core JavaScript</title>
-        
-        
-          <description>&lt;p&gt;This article goes through the JavaScript language and shows you things like comments, semicolon, the unicode character set, types, values, and variables.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Tue, 01 Mar 2016 11:18:00 +0100</pubDate>
-        <link>http://your-blog-url.example.com/2016/JavaScript-Core/</link>
-        <guid isPermaLink="true">http://your-blog-url.example.com/2016/JavaScript-Core/</guid>
       </item>
     
   </channel>

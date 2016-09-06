@@ -21,7 +21,7 @@ disqus: true
 disqus_shortname: 'develdoe-com'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
+url:            'http://develdoe.com'
 author:         'John "Devel" Doe'
 authorTwitter:  'develdoe'
 
