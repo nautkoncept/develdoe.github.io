@@ -9,4 +9,4 @@ published: true
 * Go to you DNS settings
 * Create two A records and two CNAME (www) records that points to
 192.30.252.153 & 192.30.252.154
-* Create a file named "CNAME" and enter you domain name and save the file
+* Create a file named "CNAME" -> enter you domain name -> save the file
