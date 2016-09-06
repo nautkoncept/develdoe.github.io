@@ -124,12 +124,15 @@ nav.main-nav a {
 	top: 8px;
 	right: 6px;
 	padding: 8px 12px;
-	color: #5badf0;
+	color: #0e0e0e;
 	font-size: 13px;
 	/*font-weight: bold;*/
 	line-height: 1.35;
 	border-radius: 3px;
 
+}
+nav.main-nav a:hover{
+	color: #5badf0
 }
 nav.main-nav a.cta {
 	background: #0e0e0e;
