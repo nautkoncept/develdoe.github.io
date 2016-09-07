@@ -1,10 +1,10 @@
 ---
 published: true
-title: Installing Jekyll
+title: Installing Jekyll on OS X
 Description: Step by step guide to installing Jekyll on a OSX system
-Date: 2016-08-31T00:00:00.000Z
+Date: {}
 description: Step by step guide to installing Jekyll on a OSX system
-date: 2016-09-01T00:00:00.000Z
+date: {}
 ---
 {%highlight bash%}
 xcode-select --install
