@@ -19,7 +19,7 @@ A color circle, based on red, yellow and blue, is traditional in the field of ar
 ---
 
 There are also definitions (or categories) of colors based on the color wheel. We begin with a 3-part color wheel.
-![color definitions](https://goo.gl/images/Un83j7)
+![color definitions](http://mbitwebpagedesign.com/wp-content/uploads/2014/07/colorwheel.jpg)
 
 * **Primary Colors:** Red, yellow and blue
 In traditional color theory (used in paint and pigments), primary colors are the 3 pigment colors that can not be mixed or formed by any combination of other colors. All other colors are derived from these 3 hues. 
