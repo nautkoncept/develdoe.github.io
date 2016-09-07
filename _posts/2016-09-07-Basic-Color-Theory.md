@@ -1,0 +1,31 @@
+---
+published: true
+title: Basic Color Theory
+date: 2016-09-07T00:00:00.000Z
+---
+There are three basic categories of color theory that are logical and useful : 
+
+* The color wheel
+* Color harmony
+* The context of how colors are used.
+
+###The Color Wheel
+
+
+A color circle, based on red, yellow and blue, is traditional in the field of art. Sir Isaac Newton developed the first circular diagram of colors in 1666. Since then, scientists and artists have studied and designed numerous variations of this concept.
+
+![color wheels](https://goo.gl/images/4a6XWC)
+
+---
+
+There are also definitions (or categories) of colors based on the color wheel. We begin with a 3-part color wheel.
+![color definitions](https://goo.gl/images/Un83j7)
+
+* **Primary Colors:** Red, yellow and blue
+In traditional color theory (used in paint and pigments), primary colors are the 3 pigment colors that can not be mixed or formed by any combination of other colors. All other colors are derived from these 3 hues. 
+
+* **Secondary Colors:** Green, orange and purple
+These are the colors formed by mixing the primary colors.
+
+* **Tertiary Colors:** Yellow-orange, red-orange, red-purple, blue-purple, blue-green & yellow-green
+These are the colors formed by mixing a primary and a secondary color. That's why the hue is a two word name, such as blue-green, red-violet, and yellow-orange.
