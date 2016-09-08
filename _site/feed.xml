@@ -3,8 +3,8 @@
   <channel>
     <title>Develdoe, This is my journal</title>
     <description>Hello, I am the Devel. A front end engineer who loves all things HTML, CSS and Javascript. This is my journal.</description>
-    <link>http://your-blog-url.example.com</link>
-    <atom:link href="http://your-blog-url.example.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://develdoe.com</link>
+    <atom:link href="http://develdoe.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Add Mailchimp to your site</title>
@@ -22,8 +22,8 @@
 </description>
         
         <pubDate>Tue, 06 Sep 2016 02:00:00 +0200</pubDate>
-        <link>http://your-blog-url.example.com/2016/Add-Mailchimp-to-your-site/</link>
-        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Add-Mailchimp-to-your-site/</guid>
+        <link>http://develdoe.com/2016/Add-Mailchimp-to-your-site/</link>
+        <guid isPermaLink="true">http://develdoe.com/2016/Add-Mailchimp-to-your-site/</guid>
       </item>
     
       <item>
@@ -39,8 +39,8 @@
 </description>
         
         <pubDate>Mon, 05 Sep 2016 10:18:00 +0200</pubDate>
-        <link>http://your-blog-url.example.com/2016/Github-pages-Custom-domain/</link>
-        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Github-pages-Custom-domain/</guid>
+        <link>http://develdoe.com/2016/Github-pages-Custom-domain/</link>
+        <guid isPermaLink="true">http://develdoe.com/2016/Github-pages-Custom-domain/</guid>
       </item>
     
       <item>
@@ -54,8 +54,8 @@ You can find the project at &lt;a href=&quot;https://github.com/FortAwesome/Font
 </description>
         
         <pubDate>Sun, 04 Sep 2016 10:18:00 +0200</pubDate>
-        <link>http://your-blog-url.example.com/2016/Font-Awesome/</link>
-        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Font-Awesome/</guid>
+        <link>http://develdoe.com/2016/Font-Awesome/</link>
+        <guid isPermaLink="true">http://develdoe.com/2016/Font-Awesome/</guid>
       </item>
     
       <item>
@@ -73,8 +73,8 @@ You can find the project at &lt;a href=&quot;https://github.com/FortAwesome/Font
 </description>
         
         <pubDate>Sat, 03 Sep 2016 10:18:00 +0200</pubDate>
-        <link>http://your-blog-url.example.com/2016/Content-Editor-for-GitHub/</link>
-        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Content-Editor-for-GitHub/</guid>
+        <link>http://develdoe.com/2016/Content-Editor-for-GitHub/</link>
+        <guid isPermaLink="true">http://develdoe.com/2016/Content-Editor-for-GitHub/</guid>
       </item>
     
       <item>
@@ -96,8 +96,8 @@ You can find the project at &lt;a href=&quot;https://github.com/FortAwesome/Font
 </description>
         
         <pubDate>Fri, 02 Sep 2016 10:18:00 +0200</pubDate>
-        <link>http://your-blog-url.example.com/2016/Step-by-step-First-Jekyll-site/</link>
-        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Step-by-step-First-Jekyll-site/</guid>
+        <link>http://develdoe.com/2016/Step-by-step-First-Jekyll-site/</link>
+        <guid isPermaLink="true">http://develdoe.com/2016/Step-by-step-First-Jekyll-site/</guid>
       </item>
     
       <item>
@@ -110,8 +110,8 @@ sudo gem install jekyll&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
         
         <pubDate>Thu, 01 Sep 2016 02:00:00 +0200</pubDate>
-        <link>http://your-blog-url.example.com/2016/Installing-jekyll/</link>
-        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Installing-jekyll/</guid>
+        <link>http://develdoe.com/2016/Installing-jekyll/</link>
+        <guid isPermaLink="true">http://develdoe.com/2016/Installing-jekyll/</guid>
       </item>
     
       <item>
@@ -125,8 +125,8 @@ objectives that can followed throughout the project.&lt;/p&gt;
 </description>
         
         <pubDate>Wed, 31 Aug 2016 12:18:00 +0200</pubDate>
-        <link>http://your-blog-url.example.com/2016/Planning-a-new-project/</link>
-        <guid isPermaLink="true">http://your-blog-url.example.com/2016/Planning-a-new-project/</guid>
+        <link>http://develdoe.com/2016/Planning-a-new-project/</link>
+        <guid isPermaLink="true">http://develdoe.com/2016/Planning-a-new-project/</guid>
       </item>
     
       <item>
@@ -138,8 +138,8 @@ objectives that can followed throughout the project.&lt;/p&gt;
 </description>
         
         <pubDate>Fri, 04 Mar 2016 11:18:00 +0100</pubDate>
-        <link>http://your-blog-url.example.com/2016/JavaScript-Case-Sensivity/</link>
-        <guid isPermaLink="true">http://your-blog-url.example.com/2016/JavaScript-Case-Sensivity/</guid>
+        <link>http://develdoe.com/2016/JavaScript-Case-Sensivity/</link>
+        <guid isPermaLink="true">http://develdoe.com/2016/JavaScript-Case-Sensivity/</guid>
       </item>
     
       <item>
@@ -153,8 +153,8 @@ ECMAScript5 requires version 3 or later.&lt;/p&gt;
 </description>
         
         <pubDate>Thu, 03 Mar 2016 11:18:00 +0100</pubDate>
-        <link>http://your-blog-url.example.com/2016/JavaScript-Charset/</link>
-        <guid isPermaLink="true">http://your-blog-url.example.com/2016/JavaScript-Charset/</guid>
+        <link>http://develdoe.com/2016/JavaScript-Charset/</link>
+        <guid isPermaLink="true">http://develdoe.com/2016/JavaScript-Charset/</guid>
       </item>
     
       <item>
@@ -166,8 +166,8 @@ ECMAScript5 requires version 3 or later.&lt;/p&gt;
 </description>
         
         <pubDate>Wed, 02 Mar 2016 11:18:00 +0100</pubDate>
-        <link>http://your-blog-url.example.com/2016/JavaScript-Client-Side/</link>
-        <guid isPermaLink="true">http://your-blog-url.example.com/2016/JavaScript-Client-Side/</guid>
+        <link>http://develdoe.com/2016/JavaScript-Client-Side/</link>
+        <guid isPermaLink="true">http://develdoe.com/2016/JavaScript-Client-Side/</guid>
       </item>
     
   </channel>
