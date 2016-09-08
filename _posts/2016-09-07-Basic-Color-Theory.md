@@ -16,6 +16,8 @@ A color circle, based on red, yellow and blue, is traditional in the field of ar
 
 ![color wheels](https://oss.adm.ntu.edu.sg/devanshi001/wp-content/uploads/sites/275/2015/10/Screen-Shot-2015-10-25-at-10.17.41-PM-copy.jpg)
 
+![big color wheel](http://homekano.com/wp-content/uploads/2016/05/new-the-ultimate-color-combinations-cheat-sheet-with-regard-to-combination-color-for-green.jpg)
+
 ---
 
 There are also definitions (or categories) of colors based on the color wheel. We begin with a 3-part color wheel.
