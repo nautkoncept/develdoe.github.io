@@ -3,7 +3,7 @@ published: true
 title: Project Specification
 date: '2016-09-09T08:00'
 ---
-A specification is similar to a blue print that breaks down the goals of a project into smaller tasks and then matches the sasks with the corresponding web technologies. 
+A specification is similar to a blue print that breaks down the goals of a project into smaller tasks and then matches the task with the corresponding web technologies. 
 
 As such, the spec if divided into three main sections: broad goals, TODOs, and technologies. The goals section also includes the scale and scope of the project.
 
