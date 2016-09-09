@@ -9,7 +9,7 @@ As such, the spec if divided into three main sections: broad goals, TODOs, and t
 
 ## An example specification
 
-### broad goals
+### Broad goals
 
 ##### scope: 
 A static blog that embeds photography of styling jobbs that the cutsomer has done, and monthly blog posts about interesting jobbs that the publisher has done.
@@ -24,7 +24,7 @@ A minimal theme blog, showcasing a personal portfolio, with mailchimp for campai
 * To send a picture of the month to readers
 * To set up a method for payment of styling jobs
 
-## TODOs
+### TODOs
 
  * Find an appropiate theme for the blog
  * Edit the theme to remove any unnecessary elements
@@ -34,7 +34,7 @@ A minimal theme blog, showcasing a personal portfolio, with mailchimp for campai
  * Learn how to assign prices to 500px photos
  * Set up MailChimp to send the pictures of the day
  
-## Technologies
+### Technologies
  
   * Jekyll
   * Github Pages
