@@ -42,4 +42,4 @@ A minimal theme blog, showcasing a personal portfolio, with mailchimp for campai
   * MailChimp
   * 500px
   
-This specification is than woked appon throughout the project, but suffices at the beggining of a new project to get the broad picture of what we are about to build.
+This specification is than worked on throughout the project, but suffices at the beggining of a new project to get the broad picture of what we are about to build.
