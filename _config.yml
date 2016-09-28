@@ -46,3 +46,47 @@ defaults:
             type: drafts
         values:
             layout: post
+
+
+prose:
+    rooturl: ''
+    siteurl: 'http://develdoe.com'
+    relativeLinks: 'http://develdoe.com/links.jsonp'
+    ignore:
+        - _drafts
+        - _includes
+        - _layouts
+        - _site
+        - assets
+        - _config.yml
+        - about.md
+        - CNAME
+        - feed.xml
+        - index.html
+        - LICENSE
+        - README.md
+    metadata:
+        - name: 'title'
+            field:
+                element: 'text'
+                type: 'text'
+        - name: 'date'
+            field:
+                element: 'hidden'
+                value: CURRENT_DATETIME
+        - name:
+            field:
+                element: 'checkbox'
+                label: 'Publicerad'
+                value: 'true'
+        - name: 'category'
+            field:
+                element: 'multiselect'
+                label: 'Kategori'
+                options:
+                    - name: 'JavaScript'
+                    - value: 'js'
+                    -name: 'Development'
+                    - value: 'dev'
+                    - name: 'Jekyll'
+                    - value: 'jek'
