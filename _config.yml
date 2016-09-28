@@ -72,3 +72,13 @@ prose:
               field:
                   element: 'text'
                   type: 'text'
+            - name: 'date'
+              field:
+                  element: 'hidden'
+                  value: CURRENT_DATETIME
+            - name:
+              field:
+                  element: 'checkbox'
+                  label: 'Publicerad'
+                  value: 'true'
+            
