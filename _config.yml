@@ -65,3 +65,10 @@ prose:
         - index.html
         - LICENSE
         - README.md
+        - .gitignore
+    metadata:
+        - name: 'title'
+            field:
+                element: 'text'
+                type: 'text'
+        
