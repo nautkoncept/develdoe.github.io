@@ -76,7 +76,7 @@ prose:
               field:
                   element: 'hidden'
                   value: CURRENT_DATETIME
-            - name:
+            - name: 'published'
               field:
                   element: 'checkbox'
                   label: 'Publicerad'
