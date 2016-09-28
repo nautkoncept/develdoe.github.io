@@ -53,7 +53,6 @@ prose:
     siteurl: 'http://develdoe.com'
     relativeLinks: 'http://develdoe.com/links.jsonp'
     ignore:
-        - _drafts
         - _includes
         - _layouts
         - _site
@@ -81,4 +80,3 @@ prose:
                   element: 'checkbox'
                   label: 'Publicerad'
                   value: 'true'
-            
