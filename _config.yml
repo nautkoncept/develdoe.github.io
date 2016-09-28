@@ -68,26 +68,26 @@ prose:
         - .gitignore
     metadata:
         - name: 'title'
-        field:
-            element: 'text'
-            type: 'text'
+          field:
+              element: 'text'
+              type: 'text'
         - name: 'date'
-        field:
-            element: 'hidden'
-            value: CURRENT_DATETIME
+          field:
+              element: 'hidden'
+              value: CURRENT_DATETIME
         - name:
-        field:
-            element: 'checkbox'
-            label: 'Publicerad'
-            value: 'true'
+          field:
+              element: 'checkbox'
+              label: 'Publicerad'
+              value: 'true'
         - name: 'category'
-        field:
-            element: 'multiselect'
-            label: 'Kategori'
-            options:
-                - name: 'JavaScript'
-                - value: 'js'
-                -name: 'Development'
-                - value: 'dev'
-                - name: 'Jekyll'
-                - value: 'jek'
+          field:
+              element: 'multiselect'
+              label: 'Kategori'
+              options:
+                  - name: 'JavaScript'
+                  - value: 'js'
+                  -name: 'Development'
+                  - value: 'dev'
+                  - name: 'Jekyll'
+                  - value: 'jek'
