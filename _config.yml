@@ -80,3 +80,14 @@ prose:
                   element: 'checkbox'
                   label: 'Publicerad'
                   value: 'true'
+            - name: 'category'
+              field:
+                  element: 'multiselect'
+                  label: 'Kategori'
+                  options:
+                      - name: 'JavaScript'
+                        value: 'js'
+                      - name: 'Development'
+                        value: 'dev'
+                      - name: 'Jekyll'
+                        value: 'jek'
